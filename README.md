@@ -339,7 +339,7 @@ git remote show origin
 * git gui
 
 ```shell
-gitk
+gitk --all
 
 git log --graph --oneline --all
 
