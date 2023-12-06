@@ -376,7 +376,7 @@ git rebase -i HEAD~n
 * remote
 
 ```shell
-# 添
+# 添加g
 git remote add origon git@github.com:wuyq54517/git-study.git
 ```
 
