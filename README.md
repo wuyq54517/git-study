@@ -334,3 +334,14 @@ git push -u origin --delete wuyq54517
 git remote show origin
 ```
 
+
+
+* git gui
+
+```shell
+gitk
+
+git log --graph --oneline --all
+
+```
+
