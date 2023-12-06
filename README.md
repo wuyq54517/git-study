@@ -121,6 +121,12 @@ git tag -a <tag-name>
 git push -u origon --tags
 ```
 
+* 查看版本号
+
+```shell
+git reflog
+```
+
 
 
 ## Git 分支开发
