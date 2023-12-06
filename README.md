@@ -376,7 +376,50 @@ git rebase -i HEAD~n
 * remote
 
 ```shell
-# 添加g
+# 添加
 git remote add origon git@github.com:wuyq54517/git-study.git
+```
+
+* 查看信息
+
+```shell
+git status
+```
+
+* 查看不同
+
+```shell
+git diff
+```
+
+* 草稿
+
+```shell
+# 将此草稿保存
+git stash 
+# 查看
+git stash list
+# 读取
+git stash apply stash@{0}
+# 删除
+git stash drop stash@{0}
+```
+
+* 分支
+
+```shell
+# 新建分支
+git checkout <branch>
+# 新建并且切换分支
+git checkout -b <branch>
+```
+
+* 标签
+
+```shell
+# 给当前版本打标签
+git tag <tag-name>
+# 给当前版本打标签并且附加消息
+git tag -a <tag-name>
 ```
 
