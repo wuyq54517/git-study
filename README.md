@@ -254,5 +254,6 @@ $ git merge <branch>
 ```shell
 # 将当前HEAD版本重置到分支中，请勿重置已发布的提交
 $ git rebase <branch>
+
 ```
 
