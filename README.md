@@ -73,7 +73,8 @@ git rebase -i HEAD~n
 
 ```shell
 # 添加
-git remote add origon git@github.com:wuyq54517/git-study.git
+git remote add origin git@github.com:wuyq54517/git-study.git
+git remote rm orign 
 ```
 
 * 查看信息
@@ -155,7 +156,7 @@ release 为预上线分支，发布提测阶段，会release分支代码为基�
 
 分支命名: hotfix/ 开头的为修复分支，它的命名规则与feature分支类似。线上出现紧急问题时，需要及时修复，以master分支为基线，创建hotfix分支，修复完成后，需要合并到master分支和develop分支
 
-<<<<<<< HEAD
+
 更多开发规范请参阅：[全网最全的 Git 分支开发规范手册](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI0MDQ4MTM5NQ%3D%3D%26mid%3D2247501314%26idx%3D2%26sn%3Daefe2614bf85f7035a445e59fe9df84f%26chksm%3De918a31ede6f2a084d39e68721928a416a6a447a0876b74630a4d65011e80e0b1ce65b3ca8a2%26token%3D1267489950%26lang%3Dzh_CN%23rd) | [掌握这10条规范，轻松搞定Git！](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI0MDQ4MTM5NQ%3D%3D%26mid%3D2247486125%26idx%3D1%26sn%3Dce871dd581b847ce8d6418f616d208ef%26chksm%3De91b6fb1de6ce6a7129022c167e46b780a0a4a91d7e54c6c3de63b1121c3f487bf561f9c13c5%26token%3D1267489950%26lang%3Dzh_CN%23rd)
 
 
