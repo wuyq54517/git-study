@@ -66,14 +66,21 @@ git commit --amend
 使用 `git rebase -i HEAD~n` 命令在默认文本编辑器中显示最后一次 `n` 提交的列表。
 
 ```shell
-git rebase -i HEAD~n
+git rebase -i HEAD~nremote
 ```
 
 * remote
 
 ```shell
-# 添加
-git remote add origin git@github.com:wuyq54517/git-study.git
+# 查看remote
+git remote
+# 列出所有远程仓库的名称和URL
+git remote [-v | --verbose]
+# 添加 使用 -t <branch> 选项可以指定要跟踪的分支
+git remote add [-t <branch>] origin git@github.com:wuyq54517/git-study.git
+# 重命名
+git remote rename <old> <new>
+# 删除
 git remote rm orign 
 ```
 
@@ -105,10 +112,14 @@ git stash drop stash@{0}
 * 分支
 
 ```shell
+# 查看分支
+git checkout 
 # 新建分支
 git checkout <branch>
 # 新建并且切换分支
 git checkout -b <branch>
+# 删除
+git checkout -d <branch>
 ```
 
 * 标签
