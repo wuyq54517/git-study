@@ -250,6 +250,8 @@ gitk --all
 
 git log --graph --oneline --all
 
+xaxaxa
+
 ```
 
 =======
